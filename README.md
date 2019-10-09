@@ -15,7 +15,7 @@ Go开发中常用的log包有：
 
 在使用log包前，需要先初始化log包，初始化函数有：`InitWithConfig()`, `InitWithFile()`。一个简单的example：
 
-```
+```go
 package main
 
 import (
@@ -52,7 +52,7 @@ func main() {
 
 log.yaml文件为：
 
-```
+```yaml
 writers: file,stdout
 logger_level: DEBUG
 logger_file: logs/log.log
